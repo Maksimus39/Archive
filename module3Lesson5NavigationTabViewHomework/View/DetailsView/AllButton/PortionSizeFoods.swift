@@ -72,6 +72,7 @@ struct CounterView: View {
             }
             .frame(width: 128)
         }
+        .buttonStyle(PlainButtonStyle())
         .frame(width: 128)
     }
 }
